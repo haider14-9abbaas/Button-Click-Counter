@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #39cb2660;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .container {
+    text-align: center;
+  }
+
+  h1 {
+    color: #333;
+}
+@media (max-width: 768px) {
+  
+  .alert {
+    top: 10px;
+    left: 10px;
+    transform: none; 
+    width: calc(100% - 20px); 
+  }
+}
